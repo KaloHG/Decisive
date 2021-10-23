@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "decisive",
+  "version": "${version}",
+  "name": "Decisive",
+  "description": "A mod used to connect to Ramiel and display GUI Elements",
+  "authors": [
+    "Kayla",
+    "Hasaabitt"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/Decisive/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "moe.kayla.decisive.Decisive"
+    ],
+    "client": [
+      "moe.kayla.decisive.client.DecisiveClient"
+    ]
+  },
+  "mixins": [
+    "Decisive.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.7",
+    "fabric": "*",
+    "minecraft": "1.16.5",
+    "fabric-key-binding-api-v1": "*"
+  }
+}

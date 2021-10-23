@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "moe.kayla.decisive.client.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "ChatHandlerMixin",
+    "HudRenderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
