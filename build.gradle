@@ -32,7 +32,10 @@ dependencies {
 
     //Ramiel API Implementation, handles all of that
     modImplementation(name:'ramielapi', version: '0.8', group:'net.theprism')
+    //Include as Jar-In-Jar Dependency.
     include(name:'ramielapi', version: '0.8', group:'net.theprism')
+    //Import VoxelMap
+    modImplementation(name:'VoxelMap-JAR')
 }
 
 processResources {
